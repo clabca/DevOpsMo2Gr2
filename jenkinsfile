@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
             steps {
                 echo 'Hello world!'
-                git branch: 'main', credentialsId: 'JenkinsGithub', url: 'https://github.com/clabca/DevOpsMo2Gr2.git'            }
+                //git branch: 'main', credentialsId: 'JenkinsGithub', url: 'https://github.com/clabca/DevOpsMo2Gr2.git'            }
         }
     }
 }
